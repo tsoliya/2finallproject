@@ -19,7 +19,7 @@ nav ul{
     text-align: center; 
      
 } 
-.logo img{ 
+.logo1 img{ 
     height: 80px;
     width: 80px;  
     float: left;
@@ -79,7 +79,7 @@ section img {
 } 
 footer{ 
     border: solid; 
-    background-color:rgb(100, 75, 96); 
+    background-color:rgb(63, 25, 57); 
     height: 100px; 
     width: 100%; 
    
@@ -94,8 +94,8 @@ footer{
      float: right; 
      background-color: rgb(216, 186, 186);
      margin: 15px; 
-     height: 35px; 
-     width: 35px; 
+     height: 60px; 
+     width: 60px; 
 
  } 
   footer ul li a:hover{

@@ -1,7 +1,13 @@
 body{
     margin: 0; 
     padding: 0;  
-    background-color: #c1b3b3;
+    background-color: #c1b3b3; 
+    background-image:url(/img/yene\ pic3.jpg); 
+    background-size: 128%; 
+    background-repeat: no-repeat;  
+     
+
+    
 
 } 
 nav{ 
@@ -10,6 +16,8 @@ nav{
     border-bottom: 1px solid black; 
     height: 80px;
     width: 100%; 
+    position: sticky;  
+    top: 0;
 
 } 
 nav ul {
@@ -30,11 +38,108 @@ nav ul {
     text-transform: uppercase; 
     background-color: rgb(216, 186, 186); 
     float: right;  
+     
     
  }  
  nav ul li a:hover{
     color: white;
 }  
  
+ main .hero_pic{
+     height: 100vh;
+ }  
+ .our-log{
+     position: relative; 
+     left: px;
+     
+     
+ } 
+ .about-text{ 
+    height: 400px;
+    width: 80%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+    margin: 50px;
+      
+  }  
+  h2{
+      font-size:35px ; 
+      font-family: Verdana, Geneva, Tahoma, sans-serif; 
+      text-align: center; 
+      
+  }
+
+  div p{
+         font-size: 35px;  
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         color: rgb(228, 218, 218); 
+         
+
+  }
+     
+  aside{
+      float: right; 
+      margin-top: 40%;
+  } 
+
+  footer{ 
+    border: solid; 
+    background-color:rgb(63, 25, 57); 
+    height: 100px; 
+    width: 100%; 
+    margin-top: 55%;
+   
+   
+}  
+ footer ul{
+    list-style-type: none; 
+    text-align: center; 
+ }  
+ footer ul li{
+     display: inline-block; 
+     float: right; 
+     background-color: rgb(216, 186, 186);
+     margin: 15px; 
+     height: 60px; 
+     width: 60px; 
+
+ } 
+  footer ul li a:hover{
+    color: white; 
+}
+ 
+  h3.gmail{ 
+    margin: 15px; 
+    font-size: 30px; 
+
+ } 
+ footer ul li a:hover{
+     background-color: #c1b3b3;
+ }
+
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
     
+   
+  
+ 
+
+
  
