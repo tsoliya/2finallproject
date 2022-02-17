@@ -6,7 +6,7 @@ body{
 } 
 nav{ 
     padding: 1px;
-    background-color: aliceblue;
+    background-color: rgb(100, 75, 96);
     border-bottom: 1px solid black; 
     height: 80px;
     width: 100%; 
@@ -17,14 +17,24 @@ nav ul {
     text-align: center; 
     
 } 
+.logo img{ 
+    height: 80px;
+    width: 80px;  
+    float: left;
+} 
  nav ul li {
      display: inline-block; 
      margin: 15px; 
      text-align: center; 
      font-size: 30px; 
     text-transform: uppercase; 
+    background-color: rgb(216, 186, 186); 
+    float: right;  
     
- } 
+ }  
+ nav ul li a:hover{
+    color: white;
+}  
  
     
  
